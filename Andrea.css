@@ -1,0 +1,127 @@
+body {
+    background-color: white;
+    background-image:radial-gradient(white, #036C5E );    
+}
+
+.Prénom {
+    color: #A8EAE2;
+    font-size: 30px;
+    font-family: Impact, "Arial Black", sans-serif;
+    font-weight: bold;
+
+}
+
+.Age {
+    color: black;
+    font-size: 20px;
+    font-family: Impact, "Arial Black", sans-serif;
+    font-weight: bold;
+}
+
+.Adresse {
+    color: black;
+    font-size: 20px;
+    font-family: Impact, "Arial Black", sans-serif;
+    font-weight: bold;
+}
+
+.Mail {
+    color: black;
+    font-size: 20px;
+    font-family: Impact, "Arial Black", sans-serif;
+    font-weight: bold;
+}
+
+.Numero {
+    color: black;
+    font-size: 20px;
+    font-family: Impact, "Arial Black", sans-serif;
+    font-weight: bold;
+}
+
+.Langue {
+    color:black;
+    font-size: 20px;
+    font-family: Impact, "Arial Black", sans-serif;
+    font-weight: bold;
+}
+
+.compétences {
+    background-image:radial-gradient(white, #389BD5 );
+    text-align: center;
+    padding: 2px;
+    padding-left: 10px;
+
+    
+}
+
+.Experience {
+    background-image:radial-gradient(white, #B6DCF2 );
+    padding :20px;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+.Loisirs {
+    background-image:radial-gradient(white, #DBEBF4 );   
+    text-align: center;
+    padding: 10px; 
+
+}
+.exp {
+    background-color: #DFEDF6 ;
+    margin-top: -10px;
+    padding: 20px;
+    font-family: courier;
+    font-size: 15px;
+    
+
+}
+
+.loi
+{
+    background-color: #DFEDF6 ;
+    font-family: courier;
+    font-size: 15px;
+    padding-left: -100px;
+    
+    
+
+}
+
+.tabl {
+    font-family: courier;
+    font-size: 15px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.peintre {
+    margin-left: 50px;
+    padding-left: 50px;
+    
+
+}
+
+#Page {
+    width: 600px;
+    margin : auto;
+    background-image:url("https://image.freepik.com/vecteurs-libre/flocons-de-neige-sur-un-fond-bleu-bokeh_1048-274.jpg") ;
+    border : 3px solid black ;    
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+img {
+    width: 135px;
+    height: 180px;
+}
+
+p {
+    margin: 0px;
+}
