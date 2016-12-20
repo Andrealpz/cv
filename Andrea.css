@@ -1,6 +1,10 @@
 body {
     background-color: white;
-    background-image:radial-gradient(white, #036C5E );    
+    background-image:radial-gradient(white, #036C5E ); 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
 .Prénom {
@@ -8,6 +12,7 @@ body {
     font-size: 30px;
     font-family: Impact, "Arial Black", sans-serif;
     font-weight: bold;
+    display:flex;
 
 }
 
@@ -16,6 +21,7 @@ body {
     font-size: 20px;
     font-family: Impact, "Arial Black", sans-serif;
     font-weight: bold;
+    display: flex;
 }
 
 .Adresse {
@@ -23,6 +29,7 @@ body {
     font-size: 20px;
     font-family: Impact, "Arial Black", sans-serif;
     font-weight: bold;
+    display:flex;
 }
 
 .Mail {
@@ -30,6 +37,7 @@ body {
     font-size: 20px;
     font-family: Impact, "Arial Black", sans-serif;
     font-weight: bold;
+    display: flex;
 }
 
 .Numero {
@@ -37,6 +45,7 @@ body {
     font-size: 20px;
     font-family: Impact, "Arial Black", sans-serif;
     font-weight: bold;
+    display: flex;
 }
 
 .Langue {
@@ -44,6 +53,7 @@ body {
     font-size: 20px;
     font-family: Impact, "Arial Black", sans-serif;
     font-weight: bold;
+    display: flex;
 }
 
 .compétences {
@@ -51,6 +61,7 @@ body {
     text-align: center;
     padding: 2px;
     padding-left: 10px;
+    display:flex;
 
     
 }
@@ -60,6 +71,7 @@ body {
     padding :20px;
     text-align: center;
     padding-bottom: 10px;
+    display: flex;
     
 }
 
@@ -67,6 +79,7 @@ body {
     background-image:radial-gradient(white, #DBEBF4 );   
     text-align: center;
     padding: 10px; 
+    display:flex;
 
 }
 .exp {
@@ -75,7 +88,7 @@ body {
     padding: 20px;
     font-family: courier;
     font-size: 15px;
-    
+    display:flex;
 
 }
 
@@ -87,6 +100,7 @@ body {
     padding-left: -100px;
     
     
+    
 
 }
 
@@ -95,10 +109,12 @@ body {
     font-size: 15px;
     margin-right: 20px;
     overflow: hidden;
+    display: flex;
 }
 .peintre {
     margin-left: 50px;
     padding-left: 50px;
+    display:flex;
     
 
 }
@@ -107,7 +123,10 @@ body {
     width: 600px;
     margin : auto;
     background-image:url("https://image.freepik.com/vecteurs-libre/flocons-de-neige-sur-un-fond-bleu-bokeh_1048-274.jpg") ;
-    border : 3px solid black ;    
+    border : 3px solid black ; 
+    display:flex;   
+    flex-direction: column;
+    
     
 }
 
@@ -115,13 +134,17 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 40px;
+
 }
 
 img {
     width: 135px;
     height: 180px;
+    display:flex;
+
 }
 
 p {
     margin: 0px;
+    display:flex;
 }
